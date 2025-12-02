@@ -1,0 +1,78 @@
+/* Hace que padding y border no aumenten el tamaño total */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #f2f2f2;
+            font-family: Arial;
+        }
+
+        /* CONTENEDOR PRINCIPAL */
+        .container {
+            width: 100%;
+            padding: 20px;
+            background: white;
+            border: 3px solid #333;
+            margin-bottom: 20px;
+        }
+
+        /* CABECERA */
+        .header {
+            background: #4a90e2;
+            padding: 20px;
+            color: white;
+            border: 2px solid #1c4f82;
+            margin-bottom: 20px;
+        }
+
+        /* CONTENEDOR EN FILA */
+        .row {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar {
+            width: 30%;
+            background: #ffe08a;
+            padding: 15px;
+            border: 2px solid #d1a43c;
+        }
+
+        .content {
+            width: 70%;
+            background: #c2ffd9;
+            padding: 15px;
+            border: 2px solid #3da86b;
+        }
+
+        /* ELEMENTOS EN BLOQUE INTERNO */
+        .card {
+            background: white;
+            padding: 15px;
+            border: 2px solid #aaa;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        /* ELEMENTOS INLINE-BLOCK */
+        .inline-items span {
+            display: inline-block;
+            background: #ddd;
+            border: 1px solid #444;
+            padding: 8px;
+            margin: 5px;
+            width: 100px;
+            text-align: center;
+        }
+
+        .footer {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-top: 4px solid #555;
+        }

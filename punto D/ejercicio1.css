@@ -1,0 +1,19 @@
+/* 1. Todos los párrafos dentro del div */
+div p {
+  color: blue;
+}
+
+/* 2. Solo los párrafos hijos directos del div */
+div > p {
+  font-weight: bold;
+}
+
+/* 3. Párrafo inmediatamente después de h2 */
+h2 + p {
+  text-decoration: underline;
+}
+
+/* 4. Todos los párrafos hermanos posteriores del h2 */
+h2 ~ p {
+  font-style: italic;
+}

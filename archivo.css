@@ -1,0 +1,28 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  color:black;
+  background-color: #bd9fd0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-size: 16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-color: rgb(185, 15, 15);
+  border-style: dashed;
+  padding: 10px;
+}
+
+h1 {
+    text-shadow: 1px 1px white;
+}
+
+.titulo  {
+    text-shadow: 0 0 10px ;
+    padding: ;
+}
