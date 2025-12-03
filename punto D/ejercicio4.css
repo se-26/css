@@ -1,0 +1,59 @@
+/* =======================
+   1. SELECTOR DESCENDENTE
+   ======================= */
+.tarjeta .info p {
+    margin: 3px 0;
+    color: #444;
+    font-size: 14px;
+}
+
+/* =======================
+   2. SELECTOR HIJO DIRECTO
+   ======================= */
+.tarjeta > .avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #222;
+    display: block;
+    margin: 0 auto;
+}
+
+/* =======================
+   3. HERMANO ADYACENTE
+   ======================= */
+.avatar + .info {
+    margin-top: 10px;
+}
+
+/* =======================
+   4. HERMANOS GENERALES
+   ======================= */
+.info ~ .btn {
+    margin-top: 15px;
+    background: #3b6aff;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* =======================
+   ESTILOS BASE
+   ======================= */
+.tarjeta {
+    width: 260px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 14px;
+    border: 2px solid #333;
+    text-align: center;
+}
+
+.nombre {
+    margin: 0;
+    font-size: 20px;
+    color: #222;
+}

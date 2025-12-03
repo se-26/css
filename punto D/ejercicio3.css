@@ -1,0 +1,48 @@
+/* ===============================
+   1. SELECTOR DE DESCENDENCIA
+   =============================== */
+.menu_navegacion li a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: block;
+    background-color: #e0e0e0;
+}
+
+/* ===============================
+   2. SELECTOR DE HIJO DIRECTO
+   =============================== */
+.menu_navegacion > li {
+    border-bottom: 2px solid black;
+    padding: 5px 0;
+}
+
+/* ===============================
+   3. SELECTOR HERMANO ADYACENTE
+   =============================== */
+.primer_item + li {
+    background-color: lightgreen;
+}
+
+/* ===============================
+   4. SELECTOR DE HERMANOS GENERALES
+   =============================== */
+.con_submenu ~ li {
+    background-color: lightblue;
+}
+
+/* ===============================
+   EXTRA: Estilos base para menú
+   =============================== */
+.menu_navegacion {
+    list-style: none;
+    width: 200px;
+    padding: 0;
+    margin: 20px;
+    border: 2px solid #444;
+}
+
+.menu_navegacion li {
+    margin: 0;
+    padding: 10px;
+}
